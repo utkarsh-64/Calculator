@@ -10,4 +10,9 @@ public class Calculator {
   public double subtract(double a, double b) { 
         return a - b; 
     }
+
+  //Creating method for multiplication
+  public double multiply(double a, double b) { 
+        return a * b; 
+    }
 }
