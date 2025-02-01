@@ -46,4 +46,9 @@ public class Calculator {
 
         return sum;
     }
+
+  //Creating method for mean of the array
+  public double mean(double[] arr) {
+        return sumArray(arr) / arr.length;
+    }
 }
