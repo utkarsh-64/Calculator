@@ -63,4 +63,9 @@ public class Calculator {
 
         return sum / arr.length;
     }
+
+  //Creating method of standardDeviation
+  public double standardDeviation(double[] arr) {
+        return Math.sqrt(variance(arr));
+    }
 }
