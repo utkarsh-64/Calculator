@@ -35,4 +35,15 @@ public class Calculator {
             return fibonacci(n - 1) + fibonacci(n - 2);
         }   
     }
+
+  //Creating method for the sum of array
+  public double sumArray(double[] arr) {
+        double sum = 0;
+
+        for (double num : arr) {
+            sum += num;
+        }
+
+        return sum;
+    }
 }
